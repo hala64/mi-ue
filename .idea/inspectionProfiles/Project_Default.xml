@@ -1,0 +1,38 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E302" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="float.data" />
+          <option value="diffusers.DPMSolverMultistepScheduler" />
+          <option value="diffusers.DDIMInverseScheduler" />
+          <option value="diffusers.DPMSolverMultistepInverseScheduler" />
+          <option value="bool.sum" />
+          <option value="clip" />
+          <option value="object.labels_" />
+          <option value="torch.from_numpy" />
+          <option value="torch.*" />
+          <option value="numpy.vstack" />
+          <option value="numpy.mean" />
+          <option value="pywt.dwt2" />
+          <option value="numpy.abs" />
+          <option value="wandb" />
+          <option value="numpy.random" />
+          <option value="numpy.array" />
+          <option value="numpy.concatenate" />
+          <option value="numpy.linspace" />
+          <option value="numpy.ogrid" />
+          <option value="numpy.ndarray" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
